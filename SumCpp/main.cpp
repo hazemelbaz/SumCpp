@@ -25,5 +25,10 @@ int main(int argc, const char * argv[]) {
     sum = num1 + num2 ;
     cout << sum;
     
+    
+    // HERE WE APPEND MULT OPERATION
+    int mult = 0;
+    mult=num1*num2;
+    cout <<"\nMult = " << mult;
     return 0;
 }
